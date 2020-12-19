@@ -54,7 +54,7 @@ namespace GryaznovLab2
                 Net = grid;
                 Vec = new Vector2[Net.NodeNumX, Net.NodeNumY];
        
-               /* for (int i = 0; i < Net.NodeNumX; i++)
+                for (int i = 0; i < Net.NodeNumX; i++)
                 {
                     for (int j = 0; j < Net.NodeNumY; j++)
                     {
@@ -65,12 +65,12 @@ namespace GryaznovLab2
                              (float)Convert.ToDouble(data[0]),
                              (float)Convert.ToDouble(data[1]));
 
-                        Vector2 v = new Vector2(i * Net.StepX, j * Net.StepY);
+                        //Vector2 v = new Vector2(i * Net.StepX, j * Net.StepY);
 
-                        DataItem di = new DataItem(v, Vec[i, j]);
-                        DataItems.Add(di);
+                        //DataItem di = new DataItem(v, Vec[i, j]);
+                        //DataItems.Add(di);
                     }
-                }   */
+                }   
             }
             catch (ArgumentException)
             {
